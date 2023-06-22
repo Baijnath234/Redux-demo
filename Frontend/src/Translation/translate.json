@@ -1,0 +1,67 @@
+{
+  "Language": {
+    "english": {
+      "title1":"Total Data",
+      "title2":"Average Data",
+      "title3": "Total Ratio",
+      "labelBlu":"Blue",
+      "labelGr": "Green",
+      "labelYel": "Yellow",
+      "labelRed": "Red",
+      "labelPur": "Purple",
+      "SidebarContent1": "Dashboard",
+      "SidebarContent2": "User Details",
+      "SidebarContent3": "Add New Product",
+      "SidebarContent4": "Work Report",
+      "SidebarContent5": "Contact Details",
+      "SidebarContent6": "Settings",
+      "List1": "Edit Profile",
+      "List2": "Documentation",
+      "List3": "Privacy & Policy"
+     
+    },
+    "Hindi": {
+      "title1":"कुल डेटा",
+      "title2":"औसत डेटा",
+      "title3": "कुल अनुपात",
+      "labelBlu":"नीला",
+      "labelGr": "हरा",
+      "labelYel": "पीला",
+      "labelRed": "लाल",
+      "labelPur": "बैंगनी",
+      "SidebarContent1": "डैशबोर्ड",
+      "SidebarContent2": "उपयोगकर्ता विवरण",
+      "SidebarContent3": "नया उत्पाद जोड़ें",
+      "SidebarContent4": "काम की रपट",
+      "SidebarContent5": "सम्पर्क करने का विवरण",
+      "SidebarContent6": "समायोजन",
+      "List1": "प्रोफ़ाइल संपादित करें",
+      "List2": "प्रलेखन",
+      "List3": "गोपनीयता नीति"
+
+
+    },
+
+    "Japanese": {
+      "title1":"総データ",
+      "title2":"平均データ",
+      "title3": "合計比率",
+      "labelBlu":"青",
+      "labelGr": "緑",
+      "labelYel": "黄色",
+      "labelRed": "赤",
+      "labelPur": "紫",
+      "SidebarContent1": "ダッシュボード",
+      "SidebarContent2": "ユーザーの詳細",
+      "SidebarContent3": "新しい製品を追加",
+      "SidebarContent4": "作業報告書",
+      "SidebarContent5": "連絡先の詳細",
+      "SidebarContent6": "設定",
+      "List1": "プロファイル編集",
+      "List2": "ドキュメンテーション",
+      "List3": "プライバシーポリシー"
+
+      
+    }
+  }
+}

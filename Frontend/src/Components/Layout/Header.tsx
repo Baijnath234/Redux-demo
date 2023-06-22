@@ -4,8 +4,20 @@ import { DiJqueryUiLogo } from "react-icons/di";
 import { BsTranslate, BsSearch } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
 import "animate.css";
+import { useDispatch } from "react-redux";
 
 const Header = (props: any) => {
+  
+
+  const dispatch = useDispatch();
+
+  const handleChange = (e:any) => {
+    dispatch ({
+      type: e.target.value
+    })
+  }
+
+  
   return (
     <nav className="uk-navbar-container">
       <div className="uk-container">
@@ -42,7 +54,12 @@ const Header = (props: any) => {
               </div>
             <div className="uk-flex uk-flex-row">
               <a href="##" className="uk-icons-lang uk-icon-default">
-                <BsTranslate />
+                {/* <BsTranslate /> */}
+                <select onChange={(e) => handleChange(e)}>
+                  <option value={'english'}>English</option>
+                  <option value={'Hindi'}>Hindi</option>
+                  <option value={'Japanese'}>japanese</option>
+                </select>
               </a>
               <a href="/" className=" uk-icon-profile uk-icon-default">
                 <CgProfile />

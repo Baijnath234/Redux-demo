@@ -1,3 +1,17 @@
+.uk-login-container{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  color: #0e3370;
+}
+.uk-login-container .uk-card{
+  width: 50%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .uk-navbar-container{
   position: fixed;
   width: 100%;
