@@ -12,6 +12,7 @@ import WorkReport from './Components/WorkReport'
 import ContactDetails from "./Components/ContactDetails";
 import Setting from './Components/Setting'
 import Login from "./Components/Login/Logout/Login";
+import Register from "./Components/Login/Register";
 
 
 function App() {
@@ -33,7 +34,9 @@ const totalData = '100%';
         <PopupFormItemEdit />
         <div className='content-padder uk-container' style={sideBar ? {width: '100%', maxHeight: "100vh", overflow:"scroll"} : {}}>
         <Routes>
-         {/* <Route path="/" element={<Login />}/> */}
+         <Route path="/" element={<Login />}/>
+         <Route path='/register' element={<Register/>}/>
+         
           <Route
             path="/dashboard"
             element={<Dashboard  totalData={totalData} averageData={averageData}/>}
